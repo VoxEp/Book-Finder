@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+
+body {
+    background-color:aliceblue;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: 'Secular One';
+    font-size:80px
+}
+
+#header {
+    font-size: 3rem;
+}
+
+.book-list {
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+#loading {
+    display: none
+}
+
+.card-img {
+    width: 169px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+::selection {
+	color: #ffffff;
+	background-color:lightslategray;
+}
+
+::moz-selection {
+	color: #ffffff;
+	background-color:lightslategray;
+}

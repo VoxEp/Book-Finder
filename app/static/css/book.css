@@ -1,0 +1,15 @@
+.card {
+  height: 600px;
+}
+
+.img-align {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 500px;
+}
