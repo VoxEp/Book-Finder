@@ -2,7 +2,7 @@
     let outputList = "#output-list";
     let GoogleApiUrl = "https://www.googleapis.com/books/v1/volumes?q=";
     let placeHolder = "/static/img/cover.png";
-    let booksPerPage = 18; //default 10, maximum 40
+    let booksPerPage = 12; //default 10, maximum 40
     let paginationIndex;
     let searchBox = {};
     let searchInfo = {};
