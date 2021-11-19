@@ -2,46 +2,41 @@
 # Book Finder
 
   
-
-Book Finder is my cs50x (2021) final project and was inspired by florinpop17 [app ideas](https://github.com/florinpop17/app-ideas). To create this web page I decided to use Flask, Javascript and Google Books API. I chose this project to learn more about javascript and how to consume a external API.
-
-  
-
-## Video Demo: <https://www.youtube.com/watch?v=7Y2otvxnKmw>
-
-  
-
-## Description
-
-This application allow users to search for books by entering a query (title, author, publisher, etc) and display all books found in a list on the page with corresponding data.
-
-  
+Book Finder is my cs50x (2021) final project and was inspired by florinpop17 [app ideas](https://github.com/florinpop17/app-ideas). This application allow users to search for books by entering a query (title, author, publisher, etc) and display all books found in a list on the page with corresponding data.
 
 ## Freatures
 
-- User can search for a book
+- Book Finder allow users to **search for books** by multiple criteria (title, author, publisher, etc) 
 
-- User can see list of books appearing on the page
+- The web page **display all books** found in a list on the page with corresponding data. 
 
-- Pagination index
+- Since Google Books API only admit at maximum 40 books per request, the webpage offers a **pagination index** that allows user to look all books found
 
-- Responsive Design
+- The webpage offers a **responsive design** fitting at most screen sizes. 
 
-- Loading Animations
+- When the site searches for books, a **loading animation** is shown.
 
-- User can acess a secondary page for more book details
+- User can access a secondary page for **more book details**
 
-- If available, user can check a sample and buy the book (external link to google)
+- If available, user can **check a sample and buy the book** (external link to google)
+
+ ## Possible improvements
+As all applications this one can also be improved. Possible improvements:
+
+ - Have database for user account allowing users to: 
+	 - Score books
+	 - Add book to a personal wish list
+	 - Personal profile dashboard 
+ - Allow users to post a comment (review) for a specific book
+ - Show random books at index  
 
 ## Installation
-
 ### Using docker container (recommended)
 
  1. Install docker and docker-compose - [External Link](https://docs.docker.com/compose/install/)
  2.  Run the app as docker-container: ```docker-compose up```
  
 ### Using flask Locally
-
 
  1. Setup virtual environment:
 	```
@@ -71,8 +66,6 @@ This application allow users to search for books by entering a query (title, aut
 	```
 
    4. Run the app with Flask: ```flask run```
-
-  
 
 ## Authors
 
