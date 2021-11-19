@@ -2,7 +2,7 @@
 # Book Finder
 
   
-Book Finder is my cs50x (2021) final project and was inspired by florinpop17 [app ideas](https://github.com/florinpop17/app-ideas). This application allow users to search for books by entering a query (title, author, publisher, etc) and display all books found in a list on the page with corresponding data.
+Book Finder is my cs50 (2021) final project and was inspired by florinpop17 [app ideas](https://github.com/florinpop17/app-ideas). This application allow users to search for books by entering a query (title, author, publisher, etc) and display all books found in a list on the page with corresponding data.
 
 ## Freatures
 
