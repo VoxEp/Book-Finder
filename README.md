@@ -69,7 +69,7 @@ As all applications this one can also be improved. Possible improvements:
 
 ## Authors
 
--  [Vinícius Rodrigues](https://www.linkedin.com/in/vinicius-rodrigues-silva-96007b192/)
+-  [Vinícius Rodrigues](https://www.linkedin.com/in/rs-vinicius/)
 
   
 
